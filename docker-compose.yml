@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  app:
+    build: .
+    container_name: cors_anywhere
+    restart: always
+    ports:
+      - 3001:3001
+    volumes:
+      - .:/usr/app
+      - /usr/app/node_modules
