@@ -1,4 +1,4 @@
-version: "3.5"
+version: "3.9"
 
 services:
   app:
@@ -6,7 +6,7 @@ services:
     container_name: cors_anywhere
     restart: always
     ports:
-      - 3001:3001
+      - 3000:3333
     volumes:
       - .:/usr/app
       - /usr/app/node_modules
