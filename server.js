@@ -1,5 +1,5 @@
 // Listen on a specific host via the HOST environment variable
-var host = process.env.HOST || 'cors.dcisuporte.com.br';
+var host = process.env.HOST || '162.241.41.45';
 // Listen on a specific port via the PORT environment variable
 var port = process.env.PORT || 3000;
 
